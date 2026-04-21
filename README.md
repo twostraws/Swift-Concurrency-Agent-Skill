@@ -25,7 +25,16 @@ Find more agent skills for Swift and Apple platform development at [Swift Agent 
 
 ## Installing Swift Concurrency Pro
 
-You can install this skill into Claude Code, Codex, Gemini, Cursor, and more by using `npx`:
+### Claude Code
+
+Add the Swift Concurrency Agent Skill marketplace, then install the plugin:
+
+```
+/plugin marketplace add twostraws/Swift-Concurrency-Agent-Skill
+/plugin install swift-concurrency-pro@swift-concurrency-agent-skill
+```
+
+### Codex, Gemini, Cursor, and others
 
 ```bash
 npx skills add https://github.com/twostraws/swift-concurrency-agent-skill --skill swift-concurrency-pro
